@@ -15,16 +15,31 @@ struct ContentView: View {
             List {
                 ForEach (carStore.cars) { car in
                     
-                    ListCell(car: car)
+                    ListCellView(car: car)
                 }
-                .onDelete(perform: deleteItems)
-                .onMove(perform: moveItems)
+                .onDelete { offsets in
+                    deleteItems(at: offsets)
+                }
+                .onMove { offsets, index in
+                    moveItems(from: offsets, to: index)
+                }
             }
-            .navigationBarTitle(Text("EV Cars"))
-            .navigationBarItems(leading: NavigationLink(destination: AddNewCar(carStore: self.carStore)) {
-                Text("Add")
-                    .foregroundColor(.blue)
-            }, trailing: EditButton())
+            .listStyle(.plain)
+            .navigationTitle(Text("EV Cars"))
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink {
+                        AddCarView(carStore: carStore)
+                    } label: {
+                        Text("Add")
+                    }
+                    
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    EditButton()
+                }
+            }
         }
     }
     
@@ -37,21 +52,6 @@ struct ContentView: View {
     }
 }
 
-struct ListCell: View {
-    var car: Car
-    
-    var body: some View {
-        NavigationLink(destination: CarDetailView(selectedCar: car)) {
-            HStack {
-                Image(car.imageName)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 100, height: 60)
-                Text(car.name)
-            }
-        }
-        }
-    }
 
 
 struct ContentView_Previews: PreviewProvider {

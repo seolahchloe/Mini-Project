@@ -7,40 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		213E58502A70AA7500BB1372 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E584F2A70AA7500BB1372 /* ListCellView.swift */; };
-		213E58522A70AFC800BB1372 /* DataInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E58512A70AFC800BB1372 /* DataInputView.swift */; };
-		21870EDB2A6F983C00075EAB /* TheCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21870EDA2A6F983C00075EAB /* TheCarApp.swift */; };
-		21870EDD2A6F983C00075EAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21870EDC2A6F983C00075EAB /* ContentView.swift */; };
-		21870EDF2A6F983D00075EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21870EDE2A6F983D00075EAB /* Assets.xcassets */; };
-		21870EE22A6F983D00075EAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21870EE12A6F983D00075EAB /* Preview Assets.xcassets */; };
-		21870EE92A6F997E00075EAB /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21870EE82A6F997E00075EAB /* CarAssets.xcassets */; };
-		21870EEB2A6F99AA00075EAB /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = 21870EEA2A6F99AA00075EAB /* carData.json */; };
-		21870EED2A6F9E5600075EAB /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21870EEC2A6F9E5600075EAB /* Car.swift */; };
-		21870EEF2A6F9ED800075EAB /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21870EEE2A6F9ED800075EAB /* CarData.swift */; };
-		21870EF12A6FA1E800075EAB /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21870EF02A6FA1E800075EAB /* CarStore.swift */; };
-		21870EF52A6FA74100075EAB /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21870EF42A6FA74100075EAB /* CarDetailView.swift */; };
-		21870EF72A6FADFF00075EAB /* AddCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21870EF62A6FADFF00075EAB /* AddCarView.swift */; };
+		213E587A2A70DC0400BB1372 /* AnimationTransitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E58792A70DC0400BB1372 /* AnimationTransitionApp.swift */; };
+		213E587C2A70DC0400BB1372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E587B2A70DC0400BB1372 /* ContentView.swift */; };
+		213E587E2A70DC0600BB1372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213E587D2A70DC0600BB1372 /* Assets.xcassets */; };
+		213E58812A70DC0600BB1372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213E58802A70DC0600BB1372 /* Preview Assets.xcassets */; };
+		213E58882A70E4A500BB1372 /* VisibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E58872A70E4A500BB1372 /* VisibleView.swift */; };
+		213E588A2A70E5AA00BB1372 /* AutoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E58892A70E5AA00BB1372 /* AutoAnimationView.swift */; };
+		213E588C2A70E75100BB1372 /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E588B2A70E75100BB1372 /* ContentTabView.swift */; };
+		213E588E2A70E78F00BB1372 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E588D2A70E78F00BB1372 /* TransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		213E584F2A70AA7500BB1372 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
-		213E58512A70AFC800BB1372 /* DataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputView.swift; sourceTree = "<group>"; };
-		21870ED72A6F983C00075EAB /* TheCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21870EDA2A6F983C00075EAB /* TheCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCarApp.swift; sourceTree = "<group>"; };
-		21870EDC2A6F983C00075EAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		21870EDE2A6F983D00075EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		21870EE12A6F983D00075EAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		21870EE82A6F997E00075EAB /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
-		21870EEA2A6F99AA00075EAB /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carData.json; sourceTree = "<group>"; };
-		21870EEC2A6F9E5600075EAB /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		21870EEE2A6F9ED800075EAB /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
-		21870EF02A6FA1E800075EAB /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
-		21870EF42A6FA74100075EAB /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
-		21870EF62A6FADFF00075EAB /* AddCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarView.swift; sourceTree = "<group>"; };
+		213E58762A70DC0400BB1372 /* AnimationTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		213E58792A70DC0400BB1372 /* AnimationTransitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTransitionApp.swift; sourceTree = "<group>"; };
+		213E587B2A70DC0400BB1372 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		213E587D2A70DC0600BB1372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		213E58802A70DC0600BB1372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		213E58872A70E4A500BB1372 /* VisibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibleView.swift; sourceTree = "<group>"; };
+		213E58892A70E5AA00BB1372 /* AutoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoAnimationView.swift; sourceTree = "<group>"; };
+		213E588B2A70E75100BB1372 /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
+		213E588D2A70E78F00BB1372 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21870ED42A6F983C00075EAB /* Frameworks */ = {
+		213E58732A70DC0400BB1372 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,102 +40,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21870ECE2A6F983C00075EAB = {
+		213E586D2A70DC0400BB1372 = {
 			isa = PBXGroup;
 			children = (
-				21870ED92A6F983C00075EAB /* TheCar */,
-				21870ED82A6F983C00075EAB /* Products */,
+				213E58782A70DC0400BB1372 /* AnimationTransition */,
+				213E58772A70DC0400BB1372 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		21870ED82A6F983C00075EAB /* Products */ = {
+		213E58772A70DC0400BB1372 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21870ED72A6F983C00075EAB /* TheCar.app */,
+				213E58762A70DC0400BB1372 /* AnimationTransition.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21870ED92A6F983C00075EAB /* TheCar */ = {
+		213E58782A70DC0400BB1372 /* AnimationTransition */ = {
 			isa = PBXGroup;
 			children = (
-				21870EDA2A6F983C00075EAB /* TheCarApp.swift */,
-				21870EF92A6FBA2600075EAB /* View */,
-				21870EF82A6FBA0500075EAB /* Data */,
-				21870EDE2A6F983D00075EAB /* Assets.xcassets */,
-				21870EE02A6F983D00075EAB /* Preview Content */,
+				213E58792A70DC0400BB1372 /* AnimationTransitionApp.swift */,
+				213E587B2A70DC0400BB1372 /* ContentView.swift */,
+				213E588B2A70E75100BB1372 /* ContentTabView.swift */,
+				213E58872A70E4A500BB1372 /* VisibleView.swift */,
+				213E588D2A70E78F00BB1372 /* TransitionView.swift */,
+				213E58892A70E5AA00BB1372 /* AutoAnimationView.swift */,
+				213E587D2A70DC0600BB1372 /* Assets.xcassets */,
+				213E587F2A70DC0600BB1372 /* Preview Content */,
 			);
-			path = TheCar;
+			path = AnimationTransition;
 			sourceTree = "<group>";
 		};
-		21870EE02A6F983D00075EAB /* Preview Content */ = {
+		213E587F2A70DC0600BB1372 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				21870EEA2A6F99AA00075EAB /* carData.json */,
-				21870EE82A6F997E00075EAB /* CarAssets.xcassets */,
-				21870EE12A6F983D00075EAB /* Preview Assets.xcassets */,
+				213E58802A70DC0600BB1372 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		21870EF82A6FBA0500075EAB /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				21870EEC2A6F9E5600075EAB /* Car.swift */,
-				21870EEE2A6F9ED800075EAB /* CarData.swift */,
-				21870EF02A6FA1E800075EAB /* CarStore.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		21870EF92A6FBA2600075EAB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				21870EDC2A6F983C00075EAB /* ContentView.swift */,
-				21870EF42A6FA74100075EAB /* CarDetailView.swift */,
-				213E584F2A70AA7500BB1372 /* ListCellView.swift */,
-				21870EF62A6FADFF00075EAB /* AddCarView.swift */,
-				213E58512A70AFC800BB1372 /* DataInputView.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21870ED62A6F983C00075EAB /* TheCar */ = {
+		213E58752A70DC0400BB1372 /* AnimationTransition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21870EE52A6F983D00075EAB /* Build configuration list for PBXNativeTarget "TheCar" */;
+			buildConfigurationList = 213E58842A70DC0600BB1372 /* Build configuration list for PBXNativeTarget "AnimationTransition" */;
 			buildPhases = (
-				21870ED32A6F983C00075EAB /* Sources */,
-				21870ED42A6F983C00075EAB /* Frameworks */,
-				21870ED52A6F983C00075EAB /* Resources */,
+				213E58722A70DC0400BB1372 /* Sources */,
+				213E58732A70DC0400BB1372 /* Frameworks */,
+				213E58742A70DC0400BB1372 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TheCar;
-			productName = TheCar;
-			productReference = 21870ED72A6F983C00075EAB /* TheCar.app */;
+			name = AnimationTransition;
+			productName = AnimationTransition;
+			productReference = 213E58762A70DC0400BB1372 /* AnimationTransition.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		21870ECF2A6F983C00075EAB /* Project object */ = {
+		213E586E2A70DC0400BB1372 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					21870ED62A6F983C00075EAB = {
+					213E58752A70DC0400BB1372 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 21870ED22A6F983C00075EAB /* Build configuration list for PBXProject "TheCar" */;
+			buildConfigurationList = 213E58712A70DC0400BB1372 /* Build configuration list for PBXProject "AnimationTransition" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,51 +122,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 21870ECE2A6F983C00075EAB;
-			productRefGroup = 21870ED82A6F983C00075EAB /* Products */;
+			mainGroup = 213E586D2A70DC0400BB1372;
+			productRefGroup = 213E58772A70DC0400BB1372 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21870ED62A6F983C00075EAB /* TheCar */,
+				213E58752A70DC0400BB1372 /* AnimationTransition */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21870ED52A6F983C00075EAB /* Resources */ = {
+		213E58742A70DC0400BB1372 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21870EEB2A6F99AA00075EAB /* carData.json in Resources */,
-				21870EE22A6F983D00075EAB /* Preview Assets.xcassets in Resources */,
-				21870EDF2A6F983D00075EAB /* Assets.xcassets in Resources */,
-				21870EE92A6F997E00075EAB /* CarAssets.xcassets in Resources */,
+				213E58812A70DC0600BB1372 /* Preview Assets.xcassets in Resources */,
+				213E587E2A70DC0600BB1372 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21870ED32A6F983C00075EAB /* Sources */ = {
+		213E58722A70DC0400BB1372 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21870EEF2A6F9ED800075EAB /* CarData.swift in Sources */,
-				21870EDD2A6F983C00075EAB /* ContentView.swift in Sources */,
-				21870EF72A6FADFF00075EAB /* AddCarView.swift in Sources */,
-				21870EDB2A6F983C00075EAB /* TheCarApp.swift in Sources */,
-				21870EED2A6F9E5600075EAB /* Car.swift in Sources */,
-				213E58522A70AFC800BB1372 /* DataInputView.swift in Sources */,
-				213E58502A70AA7500BB1372 /* ListCellView.swift in Sources */,
-				21870EF52A6FA74100075EAB /* CarDetailView.swift in Sources */,
-				21870EF12A6FA1E800075EAB /* CarStore.swift in Sources */,
+				213E58882A70E4A500BB1372 /* VisibleView.swift in Sources */,
+				213E588C2A70E75100BB1372 /* ContentTabView.swift in Sources */,
+				213E587C2A70DC0400BB1372 /* ContentView.swift in Sources */,
+				213E588A2A70E5AA00BB1372 /* AutoAnimationView.swift in Sources */,
+				213E587A2A70DC0400BB1372 /* AnimationTransitionApp.swift in Sources */,
+				213E588E2A70E78F00BB1372 /* TransitionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		21870EE32A6F983D00075EAB /* Debug */ = {
+		213E58822A70DC0600BB1372 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		21870EE42A6F983D00075EAB /* Release */ = {
+		213E58832A70DC0600BB1372 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -311,14 +275,14 @@
 			};
 			name = Release;
 		};
-		21870EE62A6F983D00075EAB /* Debug */ = {
+		213E58852A70DC0600BB1372 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TheCar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AnimationTransition/Preview Content\"";
 				DEVELOPMENT_TEAM = RVG95USG2A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -332,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seolahchloe.TheCar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seolahchloe.AnimationTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -340,14 +304,14 @@
 			};
 			name = Debug;
 		};
-		21870EE72A6F983D00075EAB /* Release */ = {
+		213E58862A70DC0600BB1372 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TheCar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AnimationTransition/Preview Content\"";
 				DEVELOPMENT_TEAM = RVG95USG2A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -361,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.seolahchloe.TheCar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seolahchloe.AnimationTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -372,25 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21870ED22A6F983C00075EAB /* Build configuration list for PBXProject "TheCar" */ = {
+		213E58712A70DC0400BB1372 /* Build configuration list for PBXProject "AnimationTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21870EE32A6F983D00075EAB /* Debug */,
-				21870EE42A6F983D00075EAB /* Release */,
+				213E58822A70DC0600BB1372 /* Debug */,
+				213E58832A70DC0600BB1372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21870EE52A6F983D00075EAB /* Build configuration list for PBXNativeTarget "TheCar" */ = {
+		213E58842A70DC0600BB1372 /* Build configuration list for PBXNativeTarget "AnimationTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21870EE62A6F983D00075EAB /* Debug */,
-				21870EE72A6F983D00075EAB /* Release */,
+				213E58852A70DC0600BB1372 /* Debug */,
+				213E58862A70DC0600BB1372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 21870ECF2A6F983C00075EAB /* Project object */;
+	rootObject = 213E586E2A70DC0400BB1372 /* Project object */;
 }

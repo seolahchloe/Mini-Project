@@ -11,6 +11,11 @@ struct CarDetailView: View {
     
     let selectedCar: Car
     
+    var hybridImageName: String {
+        selectedCar.isHybrid ?
+             "checkmark.circle" : "xmark.circle"
+    }
+    
     var body: some View {
         Form {
             Section(header: Text("Car Details")) {
@@ -30,8 +35,7 @@ struct CarDetailView: View {
                     Text("Hybrid")
                         .font(.headline)
                     Spacer()
-                    Image(systemName: selectedCar.isHybrid ?
-                          "checkmark.circle" : "xmark.circle")
+                    Image(systemName: hybridImageName)
                 }
             }
         }
